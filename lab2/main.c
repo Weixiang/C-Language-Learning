@@ -22,10 +22,11 @@ int main(int argc, const char *argv[])
             }
         }
     }
-
+    printf("\n\n");
     for (int i = 0; i < 10; i++)
     {
         printf("%4d", a[i]);
     }
+    printf("\n\n");
     return 0;
 }
